@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearFix:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+.clearFix{
+	zoom: 1;
+}
+input,select,textarea{
+	outline: none;
+}
+html{
+	font-size: 100px;
+}
