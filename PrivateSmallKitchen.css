@@ -1,0 +1,81 @@
+nav{
+	width: 3.75rem;
+	height: .33rem;
+	background: #fff;
+	overflow-x: scroll;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+nav ul{
+	width: 7rem;
+	height: .33rem;
+	overflow-x: scroll;
+	position: relative;
+}
+nav ul li{
+	width: 1rem;
+	height: .33rem;
+	line-height: .33rem;
+	font-size: .1529rem;
+	float: left;
+	text-align: center;
+}
+.red{
+	color: #e02e24;
+	box-sizing: border-box;
+	border-bottom: 2px solid #e02e24;
+}
+.dishes{
+	width: 3.75rem;
+	height: 100%;
+	padding-top: .07rem;
+	background: #eee;
+	overflow: hidden;
+	padding-top: .33rem;
+}
+.vegetarian-dishes{
+	width: 3.75rem;
+	height: 100%;
+	background: #eee;
+}
+.vegetarian-dishes li{
+	width: 1.86rem;
+	height: 2.1rem;
+	background: #fff;
+	float: left;
+	margin: .003rem 0.0075rem;
+}
+.vegetarian-dishes li a{
+	width: 100%;
+	height: 100%;
+	color: #616161;
+	font-size: .13rem;
+}
+.vegetarian-dishes li a img{
+	width: 1.86rem;
+	height: 1.86rem;
+	margin-bottom: .06rem;
+}
+.vegetarian-dishes li a p{
+	width: 1.25rem;
+	height: .13rem;
+	line-height: 100%;
+	padding-left: .09rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+.vegetarian-dishes li a span{
+	display: block;
+	width: .31rem;
+	height: .13rem;
+	background: #f93;
+	font-size: .06rem;
+	color: #fff;
+	text-align: center;
+	line-height: .13rem;
+	border-radius: .05rem;
+	margin-right: .08rem;
+}
